@@ -21,6 +21,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
     <!-- Site CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Responsive CSS -->
@@ -37,82 +40,18 @@
 
 <body>
     <!-- Start Main Top -->
-    <div class="main-top">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<div class="custom-select-box">
-                        <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
-							<option>¥ JPY</option>
-							<option>$ USD</option>
-							<option>€ EUR</option>
-						</select>
-                    </div>
-                    <div class="right-phone-box">
-                        <p>Call US :- <a href="#"> +11 900 800 100</a></p>
-                    </div>
-                    <div class="our-link">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-user s_color"></i> My Account</a></li>
-                            <li><a href="#"><i class="fas fa-location-arrow"></i> Our location</a></li>
-                            <li><a href="#"><i class="fas fa-headset"></i> Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<div class="login-box">
-						<select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
-							<option>Register Here</option>
-							<option>Sign In</option>
-						</select>
-					</div>
-                    <div class="text-slid-box">
-                        <div id="offer-box" class="carouselTicker">
-                            <ul class="offer-box">
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT80
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on Vegetables
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Vegetables
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Vegetables
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on Vegetables
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT30
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now 
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Main Top -->
-
-    <!-- Start Main Top -->
     <header class="main-header">
         <!-- Start Navigation -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
             <div class="container">
                 <!-- Start Header Navigation -->
                 <div class="navbar-header">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa fa-bars"></i>
-                </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu"
+                        aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/Logo_GadgetEdge.png" class="logo"
+                            alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
 
@@ -120,20 +59,9 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="shop.html">Shop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Artikel</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                        <li class="dropdown active">
-                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
-                            <ul class="dropdown-menu">
-								<li><a href="shop.html">Sidebar Shop</a></li>
-								<li><a href="shop-detail.html">Shop Detail</a></li>
-                                <li><a href="cart.html">Cart</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                                <li><a href="my-account.html">My Account</a></li>
-                                <li><a href="wishlist.html">Wishlist</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -141,60 +69,21 @@
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">
                     <ul>
-                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-                        <li class="side-menu"><a href="#">
-						<i class="fa fa-shopping-bag"></i>
-                            <span class="badge">3</span>
-							<p>My Cart</p>
-					</a></li>
+                        <li class="side-menu">
+                            <a href="cart.html">
+                                <i class="fa fa-shopping-bag"></i>
+                                <span class="badge">3</span>
+                                <p>Keranjang</p>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <!-- End Atribute Navigation -->
             </div>
-            <!-- Start Side Menu -->
-            <div class="side">
-                <a href="#" class="close-side"><i class="fa fa-times"></i></a>
-                <li class="cart-box">
-                    <ul class="cart-list">
-                        <li>
-                            <a href="#" class="photo"><img src="images/img-pro-01.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Delica omtantur </a></h6>
-                            <p>1x - <span class="price">$80.00</span></p>
-                        </li>
-                        <li>
-                            <a href="#" class="photo"><img src="images/img-pro-02.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Omnes ocurreret</a></h6>
-                            <p>1x - <span class="price">$60.00</span></p>
-                        </li>
-                        <li>
-                            <a href="#" class="photo"><img src="images/img-pro-03.jpg" class="cart-thumb" alt="" /></a>
-                            <h6><a href="#">Agam facilisis</a></h6>
-                            <p>1x - <span class="price">$40.00</span></p>
-                        </li>
-                        <li class="total">
-                            <a href="#" class="btn btn-default hvr-hover btn-cart">VIEW CART</a>
-                            <span class="float-right"><strong>Total</strong>: $180.00</span>
-                        </li>
-                    </ul>
-                </li>
-            </div>
-            <!-- End Side Menu -->
         </nav>
         <!-- End Navigation -->
     </header>
     <!-- End Main Top -->
-
-    <!-- Start Top Search -->
-    <div class="top-search">
-        <div class="container">
-            <div class="input-group">
-                <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                <input type="text" class="form-control" placeholder="Search">
-                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
-            </div>
-        </div>
-    </div>
-    <!-- End Top Search -->
 
     <!-- Start All Title Box -->
     <div class="all-title-box">
@@ -203,7 +92,7 @@
                 <div class="col-lg-12">
                     <h2>Shop</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                         <li class="breadcrumb-item active">Shop</li>
                     </ul>
                 </div>
@@ -221,24 +110,27 @@
                         <div class="product-item-filter row">
                             <div class="col-12 col-sm-8 text-center text-sm-left">
                                 <div class="toolbar-sorter-right">
-                                    <span>Sort by </span>
-                                    <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
-									<option data-display="Select">Nothing</option>
-									<option value="1">Popularity</option>
-									<option value="2">High Price → High Price</option>
-									<option value="3">Low Price → High Price</option>
-									<option value="4">Best Selling</option>
-								</select>
+                                    <span>Urutkan : </span>
+                                    <select id="basic" class="selectpicker show-tick form-control"
+                                        data-placeholder="$ USD">
+                                        <option data-display="Pilih">Nothing</option>
+                                        <option value="1">Popularitas</option>
+                                        <option value="2">Harga Tertinggi → Harga Tertinggi</option>
+                                        <option value="3">Harga Terendah → Harga Tertinggi</option>
+                                        <option value="4">Terlaris</option>
+                                    </select>
                                 </div>
-                                <p>Showing all 4 results</p>
+                                <p>Menampilkan semua 4 hasil</p>
                             </div>
                             <div class="col-12 col-sm-4 text-center text-sm-right">
                                 <ul class="nav nav-tabs ml-auto">
                                     <li>
-                                        <a class="nav-link active" href="#grid-view" data-toggle="tab"> <i class="fa fa-th"></i> </a>
+                                        <a class="nav-link active" href="#grid-view" data-toggle="tab"> <i
+                                                class="fa fa-th"></i> </a>
                                     </li>
                                     <li>
-                                        <a class="nav-link" href="#list-view" data-toggle="tab"> <i class="fa fa-list-ul"></i> </a>
+                                        <a class="nav-link" href="#list-view" data-toggle="tab"> <i
+                                                class="fa fa-list-ul"></i> </a>
                                     </li>
                                 </ul>
                             </div>
@@ -257,15 +149,17 @@
                                                     <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                                            <li><a href="shop-detail.html" data-toggle="tooltip" data-placement="right"
+                                                                    title="View"><i class="fas fa-eye"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="Add to Wishlist"><i
+                                                                        class="far fa-heart"></i></a></li>
                                                         </ul>
                                                         <a class="cart" href="#">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>iPhone 15 Pro Max</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -279,15 +173,17 @@
                                                     <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="View"><i class="fas fa-eye"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="Add to Wishlist"><i
+                                                                        class="far fa-heart"></i></a></li>
                                                         </ul>
                                                         <a class="cart" href="#">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Samsung Galaxy S24 Ultra</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -301,15 +197,17 @@
                                                     <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="View"><i class="fas fa-eye"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="Add to Wishlist"><i
+                                                                        class="far fa-heart"></i></a></li>
                                                         </ul>
                                                         <a class="cart" href="#">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Asus Zenbook 13 OLED</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -323,15 +221,17 @@
                                                     <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="View"><i class="fas fa-eye"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="Add to Wishlist"><i
+                                                                        class="far fa-heart"></i></a></li>
                                                         </ul>
                                                         <a class="cart" href="#">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Samsung Galaxy Tab S9 Ultra</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -345,15 +245,17 @@
                                                     <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="View"><i class="fas fa-eye"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="Add to Wishlist"><i
+                                                                        class="far fa-heart"></i></a></li>
                                                         </ul>
                                                         <a class="cart" href="#">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Chuwi H7 Smart Pen By Wacom</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -367,15 +269,17 @@
                                                     <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="View"><i class="fas fa-eye"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="Add to Wishlist"><i
+                                                                        class="far fa-heart"></i></a></li>
                                                         </ul>
                                                         <a class="cart" href="#">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Huawei MatePad 11.5</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -389,15 +293,17 @@
                                                     <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="View"><i class="fas fa-eye"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="Add to Wishlist"><i
+                                                                        class="far fa-heart"></i></a></li>
                                                         </ul>
                                                         <a class="cart" href="#">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Macbook Air M3</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -411,15 +317,17 @@
                                                     <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="View"><i class="fas fa-eye"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="Add to Wishlist"><i
+                                                                        class="far fa-heart"></i></a></li>
                                                         </ul>
                                                         <a class="cart" href="#">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Google Pixel 7a</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -433,15 +341,17 @@
                                                     <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="View"><i class="fas fa-eye"></i></a></li>
+                                                            <li><a href="#" data-toggle="tooltip" data-placement="right"
+                                                                    title="Add to Wishlist"><i
+                                                                        class="far fa-heart"></i></a></li>
                                                         </ul>
                                                         <a class="cart" href="#">Add to Cart</a>
                                                     </div>
                                                 </div>
                                                 <div class="why-text">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>OnePlus 12</h4>
                                                     <h5> $9.79</h5>
                                                 </div>
                                             </div>
@@ -460,9 +370,13 @@
                                                         <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
                                                         <div class="mask-icon">
                                                             <ul>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                                                <li><a href="#" data-toggle="tooltip"
+                                                                        data-placement="right" title="View"><i
+                                                                            class="fas fa-eye"></i></a></li>
+                                                                <li><a href="#" data-toggle="tooltip"
+                                                                        data-placement="right"
+                                                                        title="Add to Wishlist"><i
+                                                                            class="far fa-heart"></i></a></li>
                                                             </ul>
 
                                                         </div>
@@ -471,11 +385,16 @@
                                             </div>
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>iPhone 15 Pro Max</h4>
                                                     <h5> <del>$ 60.00</del> $40.79</h5>
-                                                    <p>Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus
-                                                        sollicitudin. Cras eu metus felis. Sed arcu arcu, sagittis in blandit eu, imperdiet sit amet eros. Donec accumsan nisi purus, quis euismod ex volutpat in. Vestibulum eleifend eros ac lobortis aliquet.
-                                                        Suspendisse at ipsum vel lacus vehicula blandit et sollicitudin quam. Praesent vulputate semper libero pulvinar consequat. Etiam ut placerat lectus.</p>
+                                                    <p>Layar Super Retina XDR, Layar OLED menyeluruh 6,7 inci
+                                                        (diagonal),
+                                                        Resolusi 2796 x 1290 piksel pada 460 ppi,
+                                                        Layar iPhone 15 Pro Max memiliki sudut melengkung yang mengikuti
+                                                        desain lekukan yang indah, dan semua sudut ini berada di dalam
+                                                        bidang persegi standar. Jika diukur sebagai bentuk persegi
+                                                        standar, layarnya berukuran 6,69 inci secara diagonal (area
+                                                        bidang layar berukuran lebih kecil).</p>
                                                     <a class="btn hvr-hover" href="#">Add to Cart</a>
                                                 </div>
                                             </div>
@@ -492,9 +411,13 @@
                                                         <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
                                                         <div class="mask-icon">
                                                             <ul>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                                                <li><a href="#" data-toggle="tooltip"
+                                                                        data-placement="right" title="View"><i
+                                                                            class="fas fa-eye"></i></a></li>
+                                                                <li><a href="#" data-toggle="tooltip"
+                                                                        data-placement="right"
+                                                                        title="Add to Wishlist"><i
+                                                                            class="far fa-heart"></i></a></li>
                                                             </ul>
 
                                                         </div>
@@ -503,11 +426,16 @@
                                             </div>
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Samsung Galaxy S24 Ultra</h4>
                                                     <h5> <del>$ 60.00</del> $40.79</h5>
-                                                    <p>Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus
-                                                        sollicitudin. Cras eu metus felis. Sed arcu arcu, sagittis in blandit eu, imperdiet sit amet eros. Donec accumsan nisi purus, quis euismod ex volutpat in. Vestibulum eleifend eros ac lobortis aliquet.
-                                                        Suspendisse at ipsum vel lacus vehicula blandit et sollicitudin quam. Praesent vulputate semper libero pulvinar consequat. Etiam ut placerat lectus.</p>
+                                                    <p>Smartphone terbaru yang diumumkan pada 17 Januari dan dirilis
+                                                        pada 24 Januari ini mengusung konektivitas jaringan luas
+                                                        termasuk GSM, CDMA, HSPA, EVDO, LTE, dan 5G. Dengan bodi kokoh
+                                                        yang menampilkan Corning Gorilla Armor dan bingkai titanium, ia
+                                                        menawarkan layar Dynamic LTPO AMOLED 2X 6,8 inci, chipset
+                                                        Qualcomm Snapdragon 8 Gen 3, dan sistem quad-camera serbaguna
+                                                        dengan sensor utama 200 MP. Dengan harga $999,99, tersedia dalam
+                                                        berbagai warna.</p>
                                                     <a class="btn hvr-hover" href="#">Add to Cart</a>
                                                 </div>
                                             </div>
@@ -524,9 +452,13 @@
                                                         <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
                                                         <div class="mask-icon">
                                                             <ul>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                                                                <li><a href="#" data-toggle="tooltip"
+                                                                        data-placement="right" title="View"><i
+                                                                            class="fas fa-eye"></i></a></li>
+                                                                <li><a href="#" data-toggle="tooltip"
+                                                                        data-placement="right"
+                                                                        title="Add to Wishlist"><i
+                                                                            class="far fa-heart"></i></a></li>
                                                             </ul>
 
                                                         </div>
@@ -535,11 +467,19 @@
                                             </div>
                                             <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
                                                 <div class="why-text full-width">
-                                                    <h4>Lorem ipsum dolor sit amet</h4>
+                                                    <h4>Asus Zenbook 13 OLED</h4>
                                                     <h5> <del>$ 60.00</del> $40.79</h5>
-                                                    <p>Integer tincidunt aliquet nibh vitae dictum. In turpis sapien, imperdiet quis magna nec, iaculis ultrices ante. Integer vitae suscipit nisi. Morbi dignissim risus sit amet orci porta, eget aliquam purus
-                                                        sollicitudin. Cras eu metus felis. Sed arcu arcu, sagittis in blandit eu, imperdiet sit amet eros. Donec accumsan nisi purus, quis euismod ex volutpat in. Vestibulum eleifend eros ac lobortis aliquet.
-                                                        Suspendisse at ipsum vel lacus vehicula blandit et sollicitudin quam. Praesent vulputate semper libero pulvinar consequat. Etiam ut placerat lectus.</p>
+                                                    <p>Integer tincidunt aliquet nibh vitae dictum. In turpis sapien,
+                                                        imperdiet quis magna nec, iaculis ultrices ante. Integer vitae
+                                                        suscipit nisi. Morbi dignissim risus sit amet orci porta, eget
+                                                        aliquam purus
+                                                        sollicitudin. Cras eu metus felis. Sed arcu arcu, sagittis in
+                                                        blandit eu, imperdiet sit amet eros. Donec accumsan nisi purus,
+                                                        quis euismod ex volutpat in. Vestibulum eleifend eros ac
+                                                        lobortis aliquet.
+                                                        Suspendisse at ipsum vel lacus vehicula blandit et sollicitudin
+                                                        quam. Praesent vulputate semper libero pulvinar consequat. Etiam
+                                                        ut placerat lectus.</p>
                                                     <a class="btn hvr-hover" href="#">Add to Cart</a>
                                                 </div>
                                             </div>
@@ -550,57 +490,73 @@
                         </div>
                     </div>
                 </div>
-				<div class="col-xl-3 col-lg-3 col-sm-12 col-xs-12 sidebar-shop-left">
+                <div class="col-xl-3 col-lg-3 col-sm-12 col-xs-12 sidebar-shop-left">
                     <div class="product-categori">
                         <div class="search-product">
                             <form action="#">
-                                <input class="form-control" placeholder="Search here..." type="text">
+                                <input class="form-control" placeholder="Cari di sini..." type="text">
                                 <button type="submit"> <i class="fa fa-search"></i> </button>
                             </form>
                         </div>
                         <div class="filter-sidebar-left">
                             <div class="title-left">
-                                <h3>Categories</h3>
+                                <h3>Kategori</h3>
                             </div>
-                            <div class="list-group list-group-collapse list-group-sm list-group-tree" id="list-group-men" data-children=".sub-men">
+                            <div class="list-group list-group-collapse list-group-sm list-group-tree"
+                                id="list-group-men" data-children=".sub-men">
                                 <div class="list-group-collapse sub-men">
-                                    <a class="list-group-item list-group-item-action" href="#sub-men1" data-toggle="collapse" aria-expanded="true" aria-controls="sub-men1">Fruits & Drinks <small class="text-muted">(100)</small>
-								</a>
+                                    <a class="list-group-item list-group-item-action" href="#sub-men1"
+                                        data-toggle="collapse" aria-expanded="true" aria-controls="sub-men1">Smartphone
+                                        <small class="text-muted">(100)</small>
+                                    </a>
                                     <div class="collapse show" id="sub-men1" data-parent="#list-group-men">
                                         <div class="list-group">
-                                            <a href="#" class="list-group-item list-group-item-action active">Fruits 1 <small class="text-muted">(50)</small></a>
-                                            <a href="#" class="list-group-item list-group-item-action">Fruits 2 <small class="text-muted">(10)</small></a>
-                                            <a href="#" class="list-group-item list-group-item-action">Fruits 3 <small class="text-muted">(10)</small></a>
-                                            <a href="#" class="list-group-item list-group-item-action">Fruits 4 <small class="text-muted">(10)</small></a>
-                                            <a href="#" class="list-group-item list-group-item-action">Fruits 5 <small class="text-muted">(20)</small></a>
+                                            <a href="#" class="list-group-item list-group-item-action active">iPhone
+                                                <small class="text-muted">(50)</small></a>
+                                            <a href="#" class="list-group-item list-group-item-action">Samsung Galaxy
+                                                <small class="text-muted">(10)</small></a>
+                                            <a href="#" class="list-group-item list-group-item-action">Xiaomi <small
+                                                    class="text-muted">(10)</small></a>
+                                            <a href="#" class="list-group-item list-group-item-action">OnePlus <small
+                                                    class="text-muted">(10)</small></a>
+                                            <a href="#" class="list-group-item list-group-item-action">Realme <small
+                                                    class="text-muted">(20)</small></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="list-group-collapse sub-men">
-                                    <a class="list-group-item list-group-item-action" href="#sub-men2" data-toggle="collapse" aria-expanded="false" aria-controls="sub-men2">Vegetables 
-								<small class="text-muted">(50)</small>
-								</a>
+                                    <a class="list-group-item list-group-item-action" href="#sub-men2"
+                                        data-toggle="collapse" aria-expanded="false" aria-controls="sub-men2">Aksesoris
+                                        <small class="text-muted">(50)</small>
+                                    </a>
                                     <div class="collapse" id="sub-men2" data-parent="#list-group-men">
                                         <div class="list-group">
-                                            <a href="#" class="list-group-item list-group-item-action">Vegetables 1 <small class="text-muted">(10)</small></a>
-                                            <a href="#" class="list-group-item list-group-item-action">Vegetables 2 <small class="text-muted">(20)</small></a>
-                                            <a href="#" class="list-group-item list-group-item-action">Vegetables 3 <small class="text-muted">(20)</small></a>
+                                            <a href="#" class="list-group-item list-group-item-action">Earphone <small
+                                                    class="text-muted">(10)</small></a>
+                                            <a href="#" class="list-group-item list-group-item-action">Power Bank <small
+                                                    class="text-muted">(20)</small></a>
+                                            <a href="#" class="list-group-item list-group-item-action">Case & Cover
+                                                <small class="text-muted">(20)</small></a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="#" class="list-group-item list-group-item-action"> Grocery  <small class="text-muted">(150) </small></a>
-                                <a href="#" class="list-group-item list-group-item-action"> Grocery <small class="text-muted">(11)</small></a>
-                                <a href="#" class="list-group-item list-group-item-action"> Grocery <small class="text-muted">(22)</small></a>
+                                <a href="#" class="list-group-item list-group-item-action"> Laptop <small
+                                        class="text-muted">(150) </small></a>
+                                <a href="#" class="list-group-item list-group-item-action"> Tablet <small
+                                        class="text-muted">(22)</small></a>
+                                <a href="#" class="list-group-item list-group-item-action"> VGA <small
+                                        class="text-muted">(10)</small></a>
                             </div>
                         </div>
                         <div class="filter-price-left">
                             <div class="title-left">
-                                <h3>Price</h3>
+                                <h3>Harga</h3>
                             </div>
                             <div class="price-box-slider">
                                 <div id="slider-range"></div>
                                 <p>
-                                    <input type="text" id="amount" readonly style="border:0; color:#fbb714; font-weight:bold;">
+                                    <input type="text" id="amount" readonly
+                                        style="border:0; color:#fbb714; font-weight:bold;">
                                     <button class="btn hvr-hover" type="submit">Filter</button>
                                 </p>
                             </div>
@@ -613,7 +569,7 @@
     <!-- End Shop Page -->
 
     <!-- Start Instagram Feed  -->
-    <div class="instagram-box">
+    <!-- <div class="instagram-box">
         <div class="main-instagram owl-carousel owl-theme">
             <div class="item">
                 <div class="ins-inner-box">
@@ -696,7 +652,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Instagram Feed  -->
 
 
@@ -704,77 +660,78 @@
     <footer>
         <div class="footer-main">
             <div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-12 col-sm-12">
-						<div class="footer-top-box">
-							<h3>Business Time</h3>
-							<ul class="list-time">
-								<li>Monday - Friday: 08.00am to 05.00pm</li> <li>Saturday: 10.00am to 08.00pm</li> <li>Sunday: <span>Closed</span></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-12 col-sm-12">
-						<div class="footer-top-box">
-							<h3>Newsletter</h3>
-							<form class="newsletter-box">
-								<div class="form-group">
-									<input class="" type="email" name="Email" placeholder="Email Address*" />
-									<i class="fa fa-envelope"></i>
-								</div>
-								<button class="btn hvr-hover" type="submit">Submit</button>
-							</form>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-12 col-sm-12">
-						<div class="footer-top-box">
-							<h3>Social Media</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-							<ul>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-top-box">
+                            <h3>Jam Operasional</h3>
+                            <ul class="list-time">
+                                <li>Senin - Jumat: 08.00 pagi - 05.00 sore</li>
+                                <li>Sabtu: 10.00 pagi - 08.00 malam</li>
+                                <li>Minggu: <span>Tutup</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-top-box">
+                            <h3>Newsletter</h3>
+                            <form class="newsletter-box">
+                                <div class="form-group">
+                                    <input class="" type="email" name="Email" placeholder="Alamat Email*" />
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <button class="btn hvr-hover" type="submit">Berlangganan</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-top-box">
+                            <h3>Sosial Media</h3>
+                            <p>Dapatkan berita terbaru tentang gadget kami melalui sosial media.</p>
+                            <ul>
                                 <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
                             </ul>
-						</div>
-					</div>
-				</div>
-				<hr>
+                        </div>
+                    </div>
+                </div>
+                <hr>
                 <div class="row">
                     <div class="col-lg-4 col-md-12 col-sm-12">
                         <div class="footer-widget">
-                            <h4>About Freshshop</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 							
+                            <h4>Tentang GadgetEdge</h4>
+                            <p>GadgetEdge adalah destinasi utama untuk menemukan gadget terbaru dan teknologi canggih.
+                                Kami berkomitmen untuk memberikan pengalaman berbelanja online yang menyenangkan dan
+                                memuaskan.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12">
                         <div class="footer-link">
-                            <h4>Information</h4>
+                            <h4>Informasi</h4>
                             <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Customer Service</a></li>
-                                <li><a href="#">Our Sitemap</a></li>
-                                <li><a href="#">Terms &amp; Conditions</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Delivery Information</a></li>
+                                <li><a href="#">Tentang Kami</a></li>
+                                <li><a href="#">Layanan Pelanggan</a></li>
+                                <li><a href="#">Kebijakan Privasi</a></li>
+                                <li><a href="#">Informasi Pengiriman</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12">
                         <div class="footer-link-contact">
-                            <h4>Contact Us</h4>
+                            <h4>Hubungi Kami</h4>
                             <ul>
                                 <li>
-                                    <p><i class="fas fa-map-marker-alt"></i>Address: Michael I. Days 3756 <br>Preston Street Wichita,<br> KS 67213 </p>
+                                    <p><i class="fas fa-map-marker-alt"></i>Alamat: Jl. Teknologi No. 123, Kota Gadget,
+                                        Indonesia</p>
                                 </li>
                                 <li>
-                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+1-888705770">+1-888 705 770</a></p>
+                                    <p><i class="fas fa-phone-square"></i>Telepon: <a href="tel:+62-888888888">+62-888
+                                            8888 888</a></p>
                                 </li>
                                 <li>
-                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">contactinfo@gmail.com</a></p>
+                                    <p><i class="fas fa-envelope"></i>Email: <a
+                                            href="mailto:info@gadgetedge.com">info@gadgetedge.com</a></p>
                                 </li>
                             </ul>
                         </div>
@@ -787,8 +744,9 @@
 
     <!-- Start copyright  -->
     <div class="footer-copyright">
-        <p class="footer-company">All Rights Reserved. &copy; 2018 <a href="#">ThewayShop</a> Design By :
-            <a href="https://html.design/">html design</a></p>
+        <p class="footer-company">Seluruh Hak Cipta Dilindungi. &copy; 2024 GadgetEdge Desain Oleh :
+            <a href="#">GadgetEdge Team</a>
+        </p>
     </div>
     <!-- End copyright  -->
 
