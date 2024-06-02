@@ -35,12 +35,9 @@
 </head>
 
 <body>
-    <!-- Start Main Top -->
     <header class="main-header">
-        <!-- Start Navigation -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
             <div class="container">
-                <!-- Start Header Navigation -->
                 <div class="navbar-header">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu"
                         aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,9 +46,6 @@
                     <a class="navbar-brand" href="index.html"><img src="images/Logo_GadgetEdge.png" class="logo"
                             alt=""></a>
                 </div>
-                <!-- End Header Navigation -->
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -59,46 +53,140 @@
                         <li class="nav-item"><a class="nav-link" href="Arsip_Artikel.html">Artikel</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                         <li class="nav-item active"><a class="nav-link" href="history.html">History</a></li>
+                        <!-- Profile Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-user"></i> Profile
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="profileDropdown">
+                                <a class="dropdown-item" href="profile.html">My Profile</a>
+                                <a class="dropdown-item" href="Gadget_Edge/Dasboard/Dasboard_GadgetEdge/pages-login.html">Logout</a>
+                            </div>
+                        </li>
+                        <!-- End Profile Dropdown -->
                     </ul>
                 </div>
-                <!-- /.navbar-collapse -->
-
-                <!-- Start Atribute Navigation -->
+                
                 <div class="attr-nav">
-                    <ul>
+                    <ul class="navbar-nav">
                         <li class="side-menu nav-item active">
                             <a href="cart.html">
                                 <i class="fa fa-shopping-bag"></i>
-                                <span class="badge">3</span>
                                 <p class="fw-bold">Keranjang</p>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <!-- End Atribute Navigation -->
             </div>
         </nav>
-        <!-- End Navigation -->
-    </header>
-    <!-- End Main Top -->
+    </header>    
 
-    <!-- Start All Title Box -->
     <div class="all-title-box">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>History</h2>
+                    <h2>Detail History</h2>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active">History</li>
+                        <li class="breadcrumb-item"><a href="history.html">History</a></li>
+                        <li class="breadcrumb-item active">Detail History</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End All Title Box -->
 
-    <!-- Start Footer  -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-6 col-lg-6 mb-3">
+                <div class="">
+                    <div class="title-left">
+                        <h3>Detail Pengiriman</h3>
+                    </div>
+                    <div class="mb-3">
+                        <p><strong>Nama Pengguna :</strong> Muhamad Ghandi Nur Setiawan</p>
+                        <p><strong>Email :</strong> hgrphantom01@gmail.com</p>
+                        <p><strong>Alamat :</strong></p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">alamat 1 : Taman Puspa Anggaswangi G2-18, Sukodono, Sidoarjo, Jawa Timur</li>
+                        </ul>
+                        <p><strong>Provinsi :</strong> Jawa Timur</p>
+                        <p><strong>Kota :</strong> Sidoarjo</p>
+                        <p><strong>Kabupaten :</strong> Sukodono</p>
+                        <p><strong>Kode Pos :</strong> 60285</p>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <div class="title-left">
+                        <h3>Metode Pembayaran</h3>
+                    </div>
+                    <div>
+                        <p><strong>Metode :</strong> Kartu Debit</p>
+                        <p><strong>Nama Kartu :</strong> Bank Mandiri</p>
+                    </div>
+                </div>
+                <div class="mt-4 mb-4">
+                    <div class="title-left">
+                        <h3>Metode Pengiriman</h3>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p class="font-weight-bold"><strong>Pengiriman Standar</strong></p>
+                        <p>(3-7 hari kerja) - GRATIS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-6 mb-3">
+                <div class="title-left">
+                    <h3>Detail Pembelian</h3>
+                </div>
+                <h3><strong>No Invoice :</strong> #15052024001</h3>
+                <h3><strong>Tanggal Pembelian :</strong> 15 Mei 2024</h3>
+                <div class="order-box">
+                    <div class="d-flex">
+                        <div class="font-weight-bold">Produk</div>
+                        <div class="ml-auto font-weight-bold">Total</div>
+                    </div>
+                    <hr class="my-1">
+                    <div class="d-flex">
+                        <h4>iPhone 15 Pro Max</h4>
+                        <div class="ml-auto font-weight-bold"> Rp 22.500.000 </div>
+                    </div>
+                    <div class="d-flex">
+                        <h4>Samsung Galaxy S23</h4>
+                        <div class="ml-auto font-weight-bold"> Rp 15.984.000 </div>
+                    </div>
+                    <div class="d-flex">
+                        <h4>MacBook Pro</h4>
+                        <div class="ml-auto font-weight-bold"> Rp 38.384.000 </div>
+                    </div>
+                    <hr class="my-1">
+                    <div class="d-flex">
+                        <h4>Sub Total</h4>
+                        <div class="ml-auto font-weight-bold"> Rp 76.868.000 </div>
+                    </div>
+                    <div class="d-flex">
+                        <h4>Diskon</h4>
+                        <div class="ml-auto font-weight-bold"> Rp 3.200.000 </div>
+                    </div>
+                    <div class="d-flex">
+                        <h4>Pajak</h4>
+                        <div class="ml-auto font-weight-bold"> Rp 7.686.800 </div>
+                    </div>
+                    <div class="d-flex">
+                        <h4>Biaya Pengiriman</h4>
+                        <div class="ml-auto font-weight-bold"> Gratis </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex gr-total">
+                        <h5>Total Keseluruhan</h5>
+                        <div class="ml-auto h5"> Rp 81.354.800 </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <div class="footer-main">
             <div class="container">
@@ -133,64 +221,26 @@
                                 <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <hr>
                 <div class="row">
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="footer-widget">
-                            <h4>Tentang GadgetEdge</h4>
-                            <p>GadgetEdge adalah destinasi utama untuk menemukan gadget terbaru dan teknologi canggih.
-                                Kami berkomitmen untuk memberikan pengalaman berbelanja online yang menyenangkan dan
-                                memuaskan.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="footer-link">
-                            <h4>Informasi</h4>
-                            <ul>
-                                <li><a href="#">Tentang Kami</a></li>
-                                <li><a href="#">Layanan Pelanggan</a></li>
-                                <li><a href="#">Kebijakan Privasi</a></li>
-                                <li><a href="#">Informasi Pengiriman</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="footer-link-contact">
-                            <h4>Hubungi Kami</h4>
-                            <ul>
-                                <li>
-                                    <p><i class="fas fa-map-marker-alt"></i>Alamat: Jl. Teknologi No. 123, Kota Gadget,
-                                        Indonesia</p>
-                                </li>
-                                <li>
-                                    <p><i class="fas fa-phone-square"></i>Telepon: <a href="tel:+62-888888888">+62-888
-                                            8888 888</a></p>
-                                </li>
-                                <li>
-                                    <p><i class="fas fa-envelope"></i>Email: <a
-                                            href="mailto:info@gadgetedge.com">info@gadgetedge.com</a></p>
-                                </li>
-                            </ul>
+                    <div class="col-md-12">
+                        <div class="copyright">
+                            <p class="footer-company">All Rights Reserved. &copy; 2024 <a href="#">GadgetEdge</a> Design
+                                By:
+                                <a href="https://html.design/">html design</a>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- End Footer  -->
-
-    <!-- Start copyright  -->
-    <div class="footer-copyright">
-        <p class="footer-company">Seluruh Hak Cipta Dilindungi. &copy; 2024 GadgetEdge Desain Oleh :
-            <a href="#">GadgetEdge Team</a>
-        </p>
-    </div>
-    <!-- End copyright  -->
 
     <!-- ALL JS FILES -->
     <script src="js/jquery-3.2.1.min.js"></script>
