@@ -446,4 +446,10 @@
     /* Memastikan gambar terpotong dengan rapi */
 }
 
+@media (max-width: 768px) {
+    .slides-navigation {
+        display: none;
+    }
+}
+
 /*** Footer End ***/

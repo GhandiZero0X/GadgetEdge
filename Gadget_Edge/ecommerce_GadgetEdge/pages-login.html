@@ -16,7 +16,7 @@
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect" />
   <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i"
     rel="stylesheet" />
 
   <!-- Vendor CSS Files -->
@@ -58,7 +58,7 @@
                     </p>
                   </div>
 
-                  <form class="row g-3 needs-validation" action="index.html" novalidate>
+                  <form class="row g-3 needs-validation" id="loginForm" novalidate>
                     <div class="col-12">
                       <label for="yourUsername" class="form-label">Email</label>
                       <div class="input-group has-validation">
@@ -121,6 +121,21 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', function (event) {
+      event.preventDefault(); // Mencegah form dari submit default
+
+      var email = document.getElementById('yourUsername').value;
+      var password = document.getElementById('yourPassword').value;
+
+      if (email === 'hgrphantom01@gmail.com') {
+        window.location.href = 'dashboard_admin.html';
+      } else {
+        window.location.href = 'index.html';
+      }
+    });
+  </script>
 </body>
 
 </html>
