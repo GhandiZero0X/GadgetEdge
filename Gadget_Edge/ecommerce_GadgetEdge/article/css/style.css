@@ -437,4 +437,13 @@
     border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+
+.latest-news-item img {
+    width: 100%;
+    height: 200px;
+    /* Sesuaikan tinggi sesuai keinginan Anda */
+    object-fit: cover;
+    /* Memastikan gambar terpotong dengan rapi */
+}
+
 /*** Footer End ***/
